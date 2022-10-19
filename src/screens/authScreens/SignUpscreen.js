@@ -9,6 +9,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Ionicons } from "@expo/vector-icons";
 export default function SignUpscreen() {
   const [TextInput2Fossued, setTextInput2Fossued] = useState(false);
+  const [TextInput3Fossued, setTextInput3Fossued] = useState(false);
 
   const textInput1 = useRef(1);
   const textInput2 = useRef(2);
